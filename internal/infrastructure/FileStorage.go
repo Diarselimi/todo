@@ -20,7 +20,7 @@ type FileStorage struct {
 
 func NewStorage() FileStorage {
 	return FileStorage{
-		path:      "/home/diarselimi/projects/cards/testdata/todos",
+		path:      "testdata/todos",
 		separator: "\n",
 	}
 }
